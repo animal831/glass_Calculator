@@ -1,0 +1,70 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.glass{
+    height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+    border: 0.5px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 2rem;
+}
+
+
+#cal{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#display{
+
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+}
+
+.buttons_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background: black;
+    color: white;
+}
+
+.circle1, .circle2{
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+    border-radius: 50%;
+ 
+    position: absolute;
+
+}
+
+.circle1{
+    top:5%;
+    right: 15%;
+}
+
+.circle2{
+
+    bottom: -15%;
+    left: 15%;
+}
